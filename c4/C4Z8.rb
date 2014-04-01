@@ -3,5 +3,5 @@
     for l in c.split("\n") do
     l =~ /(.+) dług (\d+) oddał (\d+) /
     d = $2 - $3
-    puts '#{$1} musi zwrucic #{d}'
+    puts '#{$1} musi zwrocic #{d}'
     end
