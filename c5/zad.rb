@@ -32,3 +32,9 @@ def negative()
 	image.negative
 	image.write  "Lenna-negativ.png"
 end
+
+resize()
+grayscale()
+negative()
+change_format()
+watermark()
